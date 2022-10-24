@@ -1,0 +1,116 @@
+/*Imported closest resemblant font from fonts.google.com*/
+
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@600&display=swap');
+
+/*Added the font to the body, set the background to black and nav links to white*/
+
+body {
+    font-family: 'Familjen Grotesk', sans-serif;
+    background: #000;
+    color: #fff;
+} 
+
+/*Get rid of the underlines and bullet points on the nav bar li*/
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+/*Styling the nav bar to make it fixed to the top left of the page and center align it*/
+
+.mainHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    padding: 0 30px;
+}
+
+/* Resizing the logo of the spacex image that I pulled from google*/
+
+.spaceXLogo {
+    width: 210px;
+    height: auto;
+}
+
+.spaceXLogo img {
+    width: 100%;
+}
+
+/*Navbar*/
+
+.mainNavBar {
+    text-align: center;
+}
+
+.mainNavBar ul {
+display: flex;
+}
+
+.mainNavBar ul li {
+    position: relative;
+    margin-right: 20px;
+}
+
+/*Styling of each section for every mainPage# section*/
+
+.mainPage1 {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainPage2 {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Images for the section backgrounds*/
+
+.mainPage1 {
+    background-image: url(mainPage1.jpeg);
+}
+
+.mainPage2 {
+    background-image: url(mainPage2.jpeg);
+}
+
+
+
+/*Main page contents and fake button usingn a border tag*/
+
+.page {
+    position: absolute;
+    bottom: 250px;
+    left: 200px;
+}
+
+.page h4 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    border-style: solid;
+    text-align: center;
+}
+
+.page h2 {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+
+
