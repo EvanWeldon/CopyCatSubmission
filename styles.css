@@ -23,10 +23,10 @@ ul {
 
 /*Styling the nav bar to make it fixed to the top left of the page and center align it*/
 
-.mainHeader {
+.mainNavBar {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -48,7 +48,7 @@ ul {
 /*Navbar*/
 
 .mainNavBar {
-    text-align: center;
+    text-align: right;
 }
 
 .mainNavBar ul {
@@ -58,6 +58,37 @@ display: flex;
 .mainNavBar ul li {
     position: relative;
     margin-right: 20px;
+}
+
+
+/*Hamburger Icon*/
+
+.hamburger {
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+    background: none;
+    border: none;
+}
+
+.hamburger-top, .hamburger-middle, .hamburger-bottom {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+
+.hamburger-middle {
+    transform: translateY(5px);
+}
+
+.hamburger-bottom {
+    transform: translateY(10px);
 }
 
 /*Styling of each section for every mainPage# section*/
@@ -80,6 +111,33 @@ display: flex;
     background-size: cover;
 }
 
+.mainPage3 {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainPage4 {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainPage5 {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*Images for the section backgrounds*/
 
 .mainPage1 {
@@ -90,8 +148,17 @@ display: flex;
     background-image: url(mainPage2.jpeg);
 }
 
+.mainPage3 {
+    background-image: url(mainPage3.jpeg);
+}
 
+.mainPage4 {
+    background-image: url(mainPage4.jpeg);
+}
 
+.mainPage5 {
+    background-image: url(mainPage5.jpeg);
+}
 /*Main page contents and fake button usingn a border tag*/
 
 .page {
@@ -112,5 +179,22 @@ display: flex;
     margin-bottom: 10px;
 }
 
+
+/*Footer*/
+footer {
+    position: relative;
+    padding: 30px 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    margin-right: 30px;
+}
 
 
